@@ -1,0 +1,32 @@
+{
+  "name": "juice-room-agent",
+  "version": "1.0.0",
+  "description": "Wine mentor agent for the Juice Room using OpenAI Agent SDK",
+  "type": "module",
+  "main": "agentSDK.ts",
+  "scripts": {
+    "start": "tsx agentSDK.ts",
+    "dev": "tsx agentSDK.ts --watch",
+    "old-start": "tsx juiceRoomAgent.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.0.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.19.2",
+    "openai": "^4.38.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^20.11.30",
+    "tsx": "^4.20.3",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["wine", "training", "ai", "agent", "openai"],
+  "author": "James Manning",
+  "license": "MIT"
+}
